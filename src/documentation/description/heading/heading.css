@@ -1,0 +1,29 @@
+.heading-head,
+.heading-topic {
+  color: var(--font-color);
+  font-size: var(--head-type-font);
+}
+
+.heading-head {
+  margin: -5px;
+}
+
+.heading-content {
+  padding: var(--content-padding);
+  font-size: var(--content-font);
+  color: var(--primary-color);
+}
+.heading-container {
+  display: flex;
+  flex-basis: var(--container-flex-basis);
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  margin-top: var(--container-margin-top);
+  background-color: var(--eg-container-bg);
+  border-radius: var(--border-radius);
+}
+
+h2 {
+  margin-left: 0 !important;
+}

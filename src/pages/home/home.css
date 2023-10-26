@@ -1,0 +1,28 @@
+.home-container {
+  height: 100vh;
+  background-color: var(--eg-container-bg);
+}
+
+.home-wrapper {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.home-wrapper p {
+  font-size: large;
+  color: var(--primary-color);
+}
+
+.home-wrapper button {
+  padding: 0.8rem;
+  border: none;
+  width: 8rem;
+  cursor: pointer;
+  background: var(--primary-color);
+  color: var(--whitesmoke-color);
+  border-radius: var(--border-radius);
+}

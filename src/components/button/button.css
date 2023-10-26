@@ -1,0 +1,141 @@
+.btn {
+  padding: 15px 20px;
+  margin: 5px;
+  text-align: center;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  color: var(--whitesmoke-color);
+}
+
+.primary-btn {
+  color: var(--whitesmoke-color);
+  background-color: var(--primary-color);
+}
+
+.primary-btn:hover {
+  background-color: #325499;
+}
+
+.secondary-btn {
+  background-color: var(--secondary-color);
+  color: var(--whitesmoke-color);
+}
+
+.secondary-btn:hover {
+  background-color: #34649e;
+}
+
+.success-btn {
+  background-color: var(--good-color);
+  color: var(--whitesmoke-color);
+}
+
+.success-btn:hover {
+  background-color: rgb(21, 177, 21);
+}
+
+.warning-btn {
+  background-color: var(--warning-color);
+  color: var(--whitesmoke-color);
+}
+
+.warning-btn:hover {
+  background-color: rgb(168, 34, 10);
+}
+
+.primary-btn-border {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.primary-btn-border:hover {
+  color: var(--whitesmoke-color);
+  background-color: var(--primary-color);
+}
+
+.secondary-btn-border {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.secondary-btn-border:hover {
+  color: var(--whitesmoke-color);
+  background-color: var(--secondary-color);
+}
+
+.success-btn-border {
+  color: var(--good-color);
+  border: 1px solid var(--good-color);
+}
+
+.success-btn-border:hover {
+  color: var(--whitesmoke-color);
+  background-color: var(--good-color);
+}
+
+.warning-btn-border {
+  color: var(--warning-color);
+  border: 1px solid var(--warning-color);
+}
+
+.warning-btn-border:hover {
+  color: var(--whitesmoke-color);
+  background-color: var(--warning-color);
+}
+
+.link-bg-btn {
+  background-color: #39779e;
+  text-decoration: underline;
+}
+
+.link-bg-btn:hover {
+  background-color: var(--primary-color);
+}
+
+.link-border-btn {
+  text-decoration: underline;
+  color: #39779e;
+  border: 1px solid #39779e;
+}
+
+.link-border-btn:hover {
+  background-color: var(--primary-color);
+}
+
+.icon-btn {
+  padding: 15px 20px;
+  border: none;
+  border-radius: var(--border-radius);
+  background-color: var(--primary-color);
+  color: var(--whitesmoke-color);
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.icon-btn:hover {
+  background-color: #325499;
+}
+
+.floating-btn {
+  padding: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: var(--whitesmoke-color);
+  font-size: 1.25rem;
+}
+
+.floating-btn:hover {
+  cursor: pointer;
+  background-color: #325499;
+}

@@ -1,0 +1,57 @@
+.icon {
+  position: relative;
+  font-size: 1.5rem;
+}
+
+.icon-sm {
+  font-size: 1rem;
+}
+.icon-md {
+  font-size: 1.5rem;
+}
+.icon-lg {
+  font-size: 2rem;
+}
+
+.icon-default {
+  font-size: 1.5rem;
+}
+
+.badge {
+  position: absolute;
+  top: -22px;
+  right: -8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+  color: var(--whitesmoke-color);
+  background-color: var(--secondary-color);
+}
+
+.avatar-badge {
+  position: relative;
+}
+
+.avatar-badge .badge-dot {
+  position: absolute;
+  height: 1rem;
+  width: 1rem;
+  border: 2px solid var(--white);
+  border-radius: 50%;
+  bottom: 15px;
+  right: 13px;
+}
+
+.online {
+  background-color: #00af00;
+}
+.offline {
+  background-color: #808080;
+}
+.dnd {
+  background-color: #ff0000;
+}

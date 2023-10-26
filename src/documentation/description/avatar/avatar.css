@@ -1,0 +1,32 @@
+.avatar-head,
+.avatar-type {
+  color: var(--font-color);
+  font-size: var(--head-type-font);
+}
+
+.avatar-head {
+  margin: -5px;
+}
+
+.avatar-type {
+  margin-top: var(--type-margin);
+}
+
+.avatar-content {
+  padding: var(--content-padding);
+  font-size: var(--content-font);
+  color: var(--primary-color);
+}
+
+.avatar-container {
+  display: flex;
+  flex-direction: row;
+  gap: var(--container-gap);
+  align-items: center;
+  justify-content: center;
+  padding: 1.875rem;
+  background-color: var(--eg-container-bg);
+  border-radius: var(--border-radius);
+  flex-wrap: wrap;
+  margin-top: var(--container-margin-top);
+}

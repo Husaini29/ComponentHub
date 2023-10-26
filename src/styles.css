@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800&family=Nunito+Sans:ital,wght@0,200;0,300;1,200&display=swap");
+
+:root {
+  --primary-color: #1d3461;
+  --secondary-color: #829cbc;
+  --alert-color: rgb(241, 125, 16);
+  --warning-color: rgb(224, 49, 18);
+  --good-color: rgb(21, 150, 21);
+  --font-color: #201b1b;
+  --background-color: #eeeef7;
+  --whitesmoke-color: whitesmoke;
+  --gray-color: gray;
+  --font-color: #201b1b;
+  --background-color: #eeeef7;
+  --eg-container-bg: #dbe0e7;
+
+  --head-type-font: 1.7rem;
+  --type-margin: 1.875rem;
+  --content-padding: 1.25rem;
+  --content-font: 1.1875rem;
+  --container-gap: 1.875rem;
+  --container-margin-top: 1.25rem;
+  --doc-container-margin-top: 5.625rem;
+  --doc-container-gap: 3.125rem;
+  --border-radius: 5px;
+  --container-flex-basis: 25rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: Montserrat;
+  /* text-align: center; */
+}
+
+.container {
+  display: flex;
+  gap: 10rem;
+}
+
+ul {
+  line-height: 3;
+}
+
+li {
+  list-style: none;
+}
+
+.sidebar-links {
+  text-decoration: none;
+  color: black;
+}

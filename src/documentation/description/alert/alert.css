@@ -1,0 +1,30 @@
+.alert-head,
+.alert-topic {
+  color: var(--font-color);
+  font-size: var(--head-type-font);
+}
+
+.alert-head {
+  margin: -5px;
+}
+
+.alert-topic {
+  margin-top: var(--type-margin);
+}
+
+.alert-container {
+  display: flex;
+  flex-basis: var(--container-flex-basis);
+  flex-direction: column;
+  gap: var(--container-gap);
+  padding: 2.5rem;
+  margin-top: var(--container-margin-top);
+  background-color: var(--eg-container-bg);
+  border-radius: var(--border-radius);
+}
+
+.alert-content {
+  padding: var(--content-padding);
+  font-size: var(--content-font);
+  color: var(--primary-color);
+}

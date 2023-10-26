@@ -1,0 +1,29 @@
+.btn-head {
+  color: var(--font-color);
+  font-size: var(--head-type-font);
+  margin: -5px;
+}
+
+.btn-content {
+  padding: var(--content-padding);
+  font-size: var(--content-font);
+  color: var(--primary-color);
+}
+
+.btn-type {
+  color: var(--font-color);
+  font-size: var(--head-type-font);
+  margin-top: var(--type-margin);
+}
+
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: var(--container-flex-basis);
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: var(--container-gap);
+  background-color: var(--eg-conatiner-bg);
+  border-radius: 5px;
+}
